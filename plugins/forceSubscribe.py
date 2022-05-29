@@ -54,12 +54,12 @@ async def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = await message.reply_text(
-              " {} , you are not subscribed to my channel yet. Please join using below button and press the UnMute Me button to unmute yourself.".format(message.from_user.mention, channel, channel),
+              " {} ရေ , မင်မင်တိုရဲ့ ချန်နယ်ကို အခုထိ subscribed မလုပ်ရသေးပါဘူ:။  ဒီအောက်က MKS Main Channel (@MKSVIPLINK) ကိုနှိပ်ပြီး join ပေးပါဦး ။          Join ပြီးရင် unmute me  ကို နှိပ်လိုက်ပါဗျာ။ ပုံမှန်တိုင်း စာပြန်ရိုက်လိုရပါလိမ့်မယ်ဗျာ။ကျေးဇူးတင်ပါတယ်❣️ .".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Subscribe My Channel", url=channel_url)
+                    InlineKeyboardButton("MKS Main Channel", url=channel_url)
                 ],
                 [
                     InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
