@@ -63,7 +63,7 @@ async def _start(client, message):
                     InlineKeyboardButton("Request Group", url="https://t.me/MKS_RequestGroup")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/kopainglay15")
                 ]
             ]
         ),
