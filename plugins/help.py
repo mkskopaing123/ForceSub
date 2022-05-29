@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/MKS_RequestGroup).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                           InlineKeyboardButton("Join Channel", url="https://t.me/mksviplink"),
+                           InlineKeyboardButton("Request Group", url="https://t.me/MKS_RequestGroup")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/Kopainglay15")
                      ]
                  ]
              ),
@@ -59,8 +59,8 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Channel", url="https://t.me/mksmainchannel"),
+                    InlineKeyboardButton("Request Group", url="https://t.me/MKS_RequestGroup")
                 ],
                 [
                     InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
@@ -79,14 +79,14 @@ async def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Souce Code", url="https://github.com/Jigarvarma2005/ForceSub_Bot")
+                    InlineKeyboardButton("Souce Code", url="https://t.me/mkschannel")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/UniversalBotsUpdate"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/UniversalBotsSupport")
+                    InlineKeyboardButton("Join Channel", url="https://t.me/mksviplink"),
+                    InlineKeyboardButton("Request Group", url="https://t.me/MKS_Requestgroup")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/JigarVarma2005")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/kopainglay15")
                 ]
             ]
         ),
@@ -103,7 +103,7 @@ async def _help(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/UniversalBotsSupport).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Request Group](https://t.me/MKS_RequestGroup).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -125,7 +125,7 @@ async def _help(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/UniversalBotsSupport).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/MKS_RequestGroup).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
