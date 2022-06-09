@@ -63,6 +63,9 @@ async def _check_member(client, message):
                 ],
                 [
                     InlineKeyboardButton("UnMute Me", callback_data="onUnMuteRequest")
+                ],
+                [
+                    InlineKeyboardButton("KP Main Channel", url=)
                 ]
             ]
         )
