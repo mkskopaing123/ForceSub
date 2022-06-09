@@ -54,18 +54,18 @@ async def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = await message.reply_text(
-              " {} ရေ , မင်မင်တိုရဲ့ ချန်နယ်ကို အခုထိ subscribed မလုပ်ရသေးပါဘူ:။                                            ဒီအောက်က ❣️ MKS Main Channel ❣️(@MKSVIPLINK) ကိုနှိပ်ပြီး join ပေးပါဦး ။                                                     Join ပြီးရင် unmute me  ကို နှိပ်လိုက်ပါဗျာ။ ပုံမှန်တိုင်း စာပြန်ရိုက်လိုရပါလိမ့်မယ်ဗျာ။ကျေးဇူးတင်ပါတယ်❣️ .".format(message.from_user.mention, channel, channel),
+              " {} ရေ , မင်မင်တိုရဲ့ ချန်နယ်ကို အခုထိ subscribed မလုပ်ရသေးပါဘူ:။                                            ဒီအောက်က ❣️ Subscribe My Channel ❣️ ကိုနှိပ်ပြီး join ပေးပါဦး ။                                                     Join ပြီးရင် unmute me  ကို နှိပ်လိုက်ပါဗျာ။ ပုံမှန်တိုင်း စာပြန်ရိုက်လိုရပါလိမ့်မယ်ဗျာ။                                                                                                                         📲စာရိုက်မရလိုမင်မင်ဆီပြောချင်ရင် (@KOPAING15 )👈👈                  ကျေးဇူးတင်ပါတယ်❣️ .".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❣️ MKS Main Channel ❣️", url=channel_url)
+                    InlineKeyboardButton("❣️ Subscribe My Channel ❣️", url=channel_url)
                 ],
                 [
                     InlineKeyboardButton("❣️ UnMute Me ❣️", callback_data="onUnMuteRequest")
                 ],
                 [
-                    InlineKeyboardButton("❣️ KP World Movie Channel ❣️", url="https://t.me/kpmovielist")
+                    InlineKeyboardButton("❣️ Request Group ❣️", url="https://t.me/MKS_RequestGroup")
                 ]
             ]
         )
